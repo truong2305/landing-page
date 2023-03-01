@@ -10,8 +10,8 @@ html {
 }
 ul {
   list-style: none;
-  padding-left: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 img {
   width: 100%;
@@ -19,8 +19,8 @@ img {
   object-fit: cover;
 }
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 h1,
@@ -86,10 +86,10 @@ textarea {
 }
 .title-2 {
   font-size: 3rem;
+  font-weight: 400;
   line-height: 3.438rem;
   letter-spacing: 0.013rem;
   color: #252b42;
-  font-weight: 400;
 }
 .title-3 {
   font-weight: 700;
@@ -180,6 +180,7 @@ textarea {
   transition: 0.3s;
   padding: 2rem 0;
   z-index: 10000;
+  top: 0;
 }
 
 .header-scroll {
@@ -423,8 +424,8 @@ textarea {
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 1.063rem;
-    text-align: center;
     letter-spacing: 0.011rem;
+    text-align: center;
     color: #374754;
   }
 }
